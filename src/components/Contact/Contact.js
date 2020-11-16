@@ -74,7 +74,7 @@ const Contact = () => {
                             <input type="date" name="date"  ref={register}/>
                         </div>
                         
-                        <div>
+                        <div style={{marginTop:"10px", marginLeft:"10px"}}>
                             <label>Gender</label><br/>
                             <select name="gender" ref={register}>
                                 <option value="male">male</option>
