@@ -1,0 +1,67 @@
+.payment {
+    margin-left: 70px;
+    height: 500px;
+}
+.box1 {
+    border: 1px solid lightgray;
+    height: 400px;
+    width: 1000px;
+    padding: 30px;
+}
+.box2 {
+    border: 1px solid lightgray;
+    height: 150px;
+    width: 1000px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+.crd h3{
+    float: left;
+}
+.crd p{
+    float: left;
+    color: gray;
+    font-size: 13px;
+    margin-top:10px;
+}
+.icon img{
+    margin-right: 20px;
+    float: right;
+}
+.number input {
+    border: 1px solid lightgrey;
+    height: 50px;
+    width: 900px;
+    float: left;
+}
+
+.cardName input {
+    border: 1px solid lightgrey;
+    height: 50px;
+    width: 250px;
+    float: left;
+}
+.name input {
+    border: 1px solid lightgrey;
+    height: 50px;
+    width: 375px;
+    float: left;
+}
+.paypal {
+    margin-top: 30px;
+}
+.text p,h4 {
+    margin-left: 40px;
+}
+.text h3{
+    margin-left: 40px;
+}
+.payment .test {
+    border: 1px solid transparent;
+    background-color: goldenrod;
+    height: 35px;
+    width: 100px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+}

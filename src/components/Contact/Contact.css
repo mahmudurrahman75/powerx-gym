@@ -1,0 +1,36 @@
+.contact{
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 20px;
+    
+}
+.form{
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+}
+.form label {
+    float: left;
+    margin: 10px;
+}
+.form input, select {
+    border: 1px solid lightgrey;
+    height: 40px;
+    width: 420px;
+    margin: 10px;
+}
+
+.form .test{
+    border: 1px solid transparent;
+    background-color: goldenrod;
+    height: 35px;
+    width: 110px;
+    margin: 10px;
+    float: right;
+    margin-right: 245px;
+}
+.form label{
+    font-weight: 500;
+}
