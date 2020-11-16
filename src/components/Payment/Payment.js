@@ -5,6 +5,7 @@ import paypal from "../../icons/paypal.png";
 import amex from "../../icons/amex.png";
 import mastercard from "../../icons/mastercard.png";
 import visa from "../../icons/visa.png";
+import ProcessPayment from '../StripPayment/ProcessPayment';
 
 const Payment = () => {
 
@@ -55,26 +56,18 @@ const Payment = () => {
                                 <img src={mastercard} alt=""/>
                             </div>
                     </div>
-                    
-                    <div className="number" style={{marginTop:"30px"}}>
-                            <label>CARD NUMBER</label><br/>
-                            <input type="number" name="number" ref= {register}/>
+
+                   
+
+
+                    <div className="d-flex">
+                       
+                        <ProcessPayment></ProcessPayment>
                     </div>
 
-
-                    <div className="row d-flex cardName">
-                        <div className="name">
+                    <div className="number" style={{marginTop:"30px"}}>
                             <label>NAME ON CARD</label><br/>
                             <input type="text" name="Name" ref= {register}/>
-                        </div>
-                        <div>
-                            <label>EXPIRY DATE</label><br/>
-                            <input type="date" name="date"  ref={register}/>
-                        </div>
-                        <div>
-                            <label>CVV CODE</label><br/>
-                            <input type="number" name="number" ref= {register}/>
-                        </div>
                     </div>
 
                 </div>

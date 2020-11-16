@@ -1,0 +1,25 @@
+.pay {
+    margin: 10px;
+    text-align: center;
+}
+.cardNumber{
+    height: 60px;
+    width: 350px;
+    margin-right: 20px;
+    margin-left: 30px;
+    
+}
+.cardNumber2{
+    height: 60px;
+    width: 200px;
+    margin-right: 20px;
+}
+.pay button {
+    border: 1px solid transparent;
+    background-color: goldenrod;
+    height: 35px;
+    width: 110px;
+    margin: 10px;
+    float: right;
+    margin-right: 10px;
+}
